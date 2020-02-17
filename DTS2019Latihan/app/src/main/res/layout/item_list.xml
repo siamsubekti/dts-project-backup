@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imgGambar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="#AA9F9F"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bendara_indonesia"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/txtNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Udin"
+                android:textSize="@dimen/txt_size_medium"
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="udin@mail.com"
+                android:textSize="@dimen/txt_size_medium"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jalan Damai Kami Sepanjang Hari"
+                android:textSize="@dimen/txt_size_medium"
+                android:textColor="#000"
+                android:layout_marginTop="5dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
